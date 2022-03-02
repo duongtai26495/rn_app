@@ -1,0 +1,262 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.new_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\workspace\new_app\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\workspace\new_app\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:5:5-80
+13-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:6:5-64
+14-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:6:22-62
+15
+16    <uses-feature
+16-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:7:5-85
+17        android:name="android.hardware.camera"
+17-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:7:19-57
+18        android:required="false" />
+18-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:7:58-82
+19    <uses-feature
+19-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:8:5-91
+20        android:name="android.hardware.camera.front"
+20-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:8:19-63
+21        android:required="false" />
+21-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:8:64-88
+22
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->[com.facebook.flipper:flipper:0.99.0] C:\Users\Kai\.gradle\caches\transforms-3\b4bb08ed014de24ba4ea51cfdac8a107\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+23-->[com.facebook.flipper:flipper:0.99.0] C:\Users\Kai\.gradle\caches\transforms-3\b4bb08ed014de24ba4ea51cfdac8a107\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+24
+25    <queries>
+25-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:15
+26        <intent>
+26-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+27            <action android:name="android.media.action.IMAGE_CAPTURE" />
+27-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-73
+27-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-70
+28        </intent>
+29    </queries> <!-- Required to access Google Play Licensing -->
+30    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+30-->[:rn-fetch-blob] D:\workspace\new_app\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-73
+30-->[:rn-fetch-blob] D:\workspace\new_app\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-70
+31    <!--
+32         Required to keep CPU alive while downloading files
+33        (NOT to keep screen awake)
+34    -->
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[:rn-fetch-blob] D:\workspace\new_app\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-68
+35-->[:rn-fetch-blob] D:\workspace\new_app\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:22-65
+36    <!--
+37         Required to poll the state of the network connection
+38        and respond to changes
+39    -->
+40    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+40-->[:rn-fetch-blob] D:\workspace\new_app\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:5-79
+40-->[:rn-fetch-blob] D:\workspace\new_app\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:22-76
+41
+42    <application
+42-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:9:5-28:19
+43        android:name="com.new_app.MainApplication"
+43-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:10:7-38
+44        android:allowBackup="false"
+44-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:14:7-34
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.6.0] C:\Users\Kai\.gradle\caches\transforms-3\64a9063406808f30fdf55983aa926644\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+46        android:debuggable="true"
+47        android:icon="@drawable/logo"
+47-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:12:7-36
+48        android:label="@string/app_name"
+48-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:11:7-39
+49        android:roundIcon="@drawable/logo"
+49-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:13:7-41
+50        android:theme="@style/SplashTheme"
+50-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:16:7-41
+51        android:usesCleartextTraffic="true" >
+51-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:15:7-42
+52        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+52-->D:\workspace\new_app\android\app\src\debug\AndroidManifest.xml:11:9-86
+52-->D:\workspace\new_app\android\app\src\debug\AndroidManifest.xml:11:19-83
+53        <activity
+53-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:17:7-27:18
+54            android:name="com.new_app.MainActivity"
+54-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:18:9-37
+55            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+55-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:20:9-86
+56            android:label="@string/app_name"
+56-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:19:9-41
+57            android:launchMode="singleTask"
+57-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:21:9-40
+58            android:windowSoftInputMode="adjustResize" >
+58-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:22:9-51
+59            <intent-filter>
+59-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:23:9-26:25
+60                <action android:name="android.intent.action.MAIN" />
+60-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:24:13-65
+60-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:24:21-62
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:25:13-73
+62-->D:\workspace\new_app\android\app\src\main\AndroidManifest.xml:25:23-70
+63            </intent-filter>
+64        </activity>
+65
+66        <meta-data
+66-->[:react-native-firebase_app] D:\workspace\new_app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:36
+67            android:name="app_data_collection_default_enabled"
+67-->[:react-native-firebase_app] D:\workspace\new_app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+68            android:value="true" />
+68-->[:react-native-firebase_app] D:\workspace\new_app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-33
+69
+70        <service
+70-->[:react-native-firebase_app] D:\workspace\new_app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:19
+71            android:name="com.google.firebase.components.ComponentDiscoveryService"
+71-->[:react-native-firebase_app] D:\workspace\new_app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:18-89
+72            android:directBootAware="true"
+72-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kai\.gradle\caches\transforms-3\a38cc07db81e0ae33c46ee67e8262dc8\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+73            android:exported="false" >
+73-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kai\.gradle\caches\transforms-3\a38cc07db81e0ae33c46ee67e8262dc8\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:36:13-37
+74            <meta-data
+74-->[:react-native-firebase_app] D:\workspace\new_app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:85
+75                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+75-->[:react-native-firebase_app] D:\workspace\new_app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-120
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[:react-native-firebase_app] D:\workspace\new_app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
+77        </service>
+78
+79        <provider
+79-->[:react-native-firebase_app] D:\workspace\new_app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-24:38
+80            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+80-->[:react-native-firebase_app] D:\workspace\new_app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-88
+81            android:authorities="com.new_app.reactnativefirebaseappinitprovider"
+81-->[:react-native-firebase_app] D:\workspace\new_app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-86
+82            android:exported="false"
+82-->[:react-native-firebase_app] D:\workspace\new_app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+83            android:initOrder="99" />
+83-->[:react-native-firebase_app] D:\workspace\new_app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-35
+84        <provider
+84-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-26:20
+85            android:name="androidx.core.content.FileProvider"
+85-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-62
+86            android:authorities="com.new_app.provider"
+86-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-60
+87            android:exported="false"
+87-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+88            android:grantUriPermissions="true" >
+88-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-47
+89            <meta-data
+89-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:58
+90                android:name="android.support.FILE_PROVIDER_PATHS"
+90-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-67
+91                android:resource="@xml/provider_paths" />
+91-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-55
+92        </provider>
+93
+94        <activity
+94-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-30:72
+95            android:name="com.yalantis.ucrop.UCropActivity"
+95-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-60
+96            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+96-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-69
+97
+98        <provider
+98-->[:react-native-image-picker] D:\workspace\new_app\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+99            android:name="com.imagepicker.ImagePickerProvider"
+99-->[:react-native-image-picker] D:\workspace\new_app\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+100            android:authorities="com.new_app.imagepickerprovider"
+100-->[:react-native-image-picker] D:\workspace\new_app\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
+101            android:exported="false"
+101-->[:react-native-image-picker] D:\workspace\new_app\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+102            android:grantUriPermissions="true" >
+102-->[:react-native-image-picker] D:\workspace\new_app\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+103            <meta-data
+103-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:58
+104                android:name="android.support.FILE_PROVIDER_PATHS"
+104-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-67
+105                android:resource="@xml/imagepicker_provider_paths" />
+105-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-55
+106        </provider>
+107        <provider
+107-->[:rn-fetch-blob] D:\workspace\new_app\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-42:20
+108            android:name="com.RNFetchBlob.Utils.FileProvider"
+108-->[:rn-fetch-blob] D:\workspace\new_app\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-62
+109            android:authorities="com.new_app.provider"
+109-->[:rn-fetch-blob] D:\workspace\new_app\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-60
+110            android:exported="false"
+110-->[:rn-fetch-blob] D:\workspace\new_app\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-37
+111            android:grantUriPermissions="true" >
+111-->[:rn-fetch-blob] D:\workspace\new_app\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-47
+112            <meta-data
+112-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:58
+113                android:name="android.support.FILE_PROVIDER_PATHS"
+113-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-67
+114                android:resource="@xml/provider_paths" />
+114-->[:react-native-image-crop-picker] D:\workspace\new_app\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-55
+115        </provider>
+116
+117        <activity
+117-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Kai\.gradle\caches\transforms-3\cc5470ebe82211de7758a05b1672454c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:23:9-27:75
+118            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+118-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Kai\.gradle\caches\transforms-3\cc5470ebe82211de7758a05b1672454c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:24:13-93
+119            android:excludeFromRecents="true"
+119-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Kai\.gradle\caches\transforms-3\cc5470ebe82211de7758a05b1672454c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:25:13-46
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Kai\.gradle\caches\transforms-3\cc5470ebe82211de7758a05b1672454c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:26:13-37
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Kai\.gradle\caches\transforms-3\cc5470ebe82211de7758a05b1672454c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:27:13-72
+122        <!--
+123            Service handling Google Sign-In user revocation. For apps that do not integrate with
+124            Google Sign-In, this service will never be started.
+125        -->
+126        <service
+126-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Kai\.gradle\caches\transforms-3\cc5470ebe82211de7758a05b1672454c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:33:9-37:51
+127            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+127-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Kai\.gradle\caches\transforms-3\cc5470ebe82211de7758a05b1672454c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:34:13-89
+128            android:exported="true"
+128-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Kai\.gradle\caches\transforms-3\cc5470ebe82211de7758a05b1672454c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:35:13-36
+129            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+129-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Kai\.gradle\caches\transforms-3\cc5470ebe82211de7758a05b1672454c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:36:13-107
+130            android:visibleToInstantApps="true" />
+130-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\Kai\.gradle\caches\transforms-3\cc5470ebe82211de7758a05b1672454c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:37:13-48
+131
+132        <activity
+132-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Kai\.gradle\caches\transforms-3\493a5b32eb8a4a7bb025ee227b7212c1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+133            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+133-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Kai\.gradle\caches\transforms-3\493a5b32eb8a4a7bb025ee227b7212c1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Kai\.gradle\caches\transforms-3\493a5b32eb8a4a7bb025ee227b7212c1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Kai\.gradle\caches\transforms-3\493a5b32eb8a4a7bb025ee227b7212c1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+136
+137        <provider
+137-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kai\.gradle\caches\transforms-3\a38cc07db81e0ae33c46ee67e8262dc8\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+138            android:name="com.google.firebase.provider.FirebaseInitProvider"
+138-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kai\.gradle\caches\transforms-3\a38cc07db81e0ae33c46ee67e8262dc8\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+139            android:authorities="com.new_app.firebaseinitprovider"
+139-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kai\.gradle\caches\transforms-3\a38cc07db81e0ae33c46ee67e8262dc8\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+140            android:directBootAware="true"
+140-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kai\.gradle\caches\transforms-3\a38cc07db81e0ae33c46ee67e8262dc8\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+141            android:exported="false"
+141-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kai\.gradle\caches\transforms-3\a38cc07db81e0ae33c46ee67e8262dc8\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+142            android:initOrder="100" />
+142-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kai\.gradle\caches\transforms-3\a38cc07db81e0ae33c46ee67e8262dc8\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+143
+144        <meta-data
+144-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Kai\.gradle\caches\transforms-3\4916ac5b76716ffc0958ee8e642cb56d\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+145            android:name="com.google.android.gms.version"
+145-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Kai\.gradle\caches\transforms-3\4916ac5b76716ffc0958ee8e642cb56d\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+146            android:value="@integer/google_play_services_version" />
+146-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Kai\.gradle\caches\transforms-3\4916ac5b76716ffc0958ee8e642cb56d\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+147    </application>
+148
+149</manifest>

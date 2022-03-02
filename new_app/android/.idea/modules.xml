@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/new_app.iml" filepath="$PROJECT_DIR$/.idea/modules/new_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/new_app.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/new_app.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/614274487/new_app.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/614274487/new_app.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-696536473/new_app.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-696536473/new_app.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1552491900/new_app.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1552491900/new_app.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/324327991/new_app.react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/324327991/new_app.react-native-image-crop-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-174764286/new_app.react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-174764286/new_app.react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-932540778/new_app.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-932540778/new_app.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/953094577/new_app.react-native-pager-view.iml" filepath="$PROJECT_DIR$/.idea/modules/953094577/new_app.react-native-pager-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1582161249/new_app.react-native-picker_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/1582161249/new_app.react-native-picker_picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-939695635/new_app.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-939695635/new_app.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/417388101/new_app.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/417388101/new_app.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1450503122/new_app.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1450503122/new_app.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1680877029/new_app.rn-fetch-blob.iml" filepath="$PROJECT_DIR$/.idea/modules/-1680877029/new_app.rn-fetch-blob.iml" />
+    </modules>
+  </component>
+</project>
