@@ -252,20 +252,22 @@ const Authen = ({ navigation, route }) => {
             </View>
             <TouchableOpacity ref={loginRef}>
               <ArrowRightButton
-                title={TITLE.LOGIN}
+                titleButton={TITLE.LOGIN}
                 imageArrow={ICONS.ARROW_GO}
                 backgroundSolidColor={Colors.DARK}
-                colorTitle={Colors.LIGHT}
-                onPress={signIn} />
+                colorText={Colors.LIGHT}
+                onPress={signIn}
+                paddingV={10} />
             </TouchableOpacity>
 
 
             <ArrowRightButton
-              title={TITLE.REGISTER}
+              titleButton={TITLE.REGISTER}
               imageArrow={ICONS.DARK_ARROW_GO}
               backgroundSolidColor={Colors.LIGHT}
-              colorTitle={Colors.DARK}
-              onPress={signUp} />
+              colorText={Colors.DARK}
+              onPress={signUp}
+              paddingV={10}  />
 
           </View>
           <View style={authen_styles.tagbtnSocial}>

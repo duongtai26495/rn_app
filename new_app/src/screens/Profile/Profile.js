@@ -79,8 +79,10 @@ const Profile = ({ navigation, route }) => {
   }
 
   const logOut = () => {
+    setLoading(true)
     auth.signOut().then(() => {
       navigation.dispatch(StackActions.replace(NAVI_STRING.AUTHEN))
+      setLoading(false)
     })
   }
 

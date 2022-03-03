@@ -112,7 +112,7 @@ const Photoview = ({ navigation, route }) => {
   }
   const closePhoto = () =>{
     console.log("CLOSED")
-    navigation.navigate(NAVI_STRING.HOMEPAGE)
+    navigation.pop()
   }
 
   return (

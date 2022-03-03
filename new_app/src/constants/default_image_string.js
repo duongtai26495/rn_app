@@ -42,4 +42,5 @@ export default ({
     require('../assets/images/blur_6.jpg'),
     require('../assets/images/blur_7.jpg'),
     require('../assets/images/blur_8.jpg'),],
+    SAD:    require('../assets/images/sad.jpg'),
 })

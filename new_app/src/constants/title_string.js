@@ -49,6 +49,6 @@ export default ({
     NEED_HELP       :   'Need help ?',
     ABOUT_APP       :   'About app',
     SUBMIT          :   'Send Mail Recovery Password',
-RECOVERYMAIL_SENDED :   'An email with a password reset link has been sent to you\nPlease check your mailbox and follow the instructions',
-
+    RECOVERYMAIL_SENDED :   'An email with a password reset link has been sent to you\nPlease check your mailbox and follow the instructions',
+    FAVORITES_TITLE :   'My favorites'
 })  

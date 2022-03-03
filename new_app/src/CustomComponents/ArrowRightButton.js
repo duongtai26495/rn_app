@@ -11,8 +11,8 @@ class ArrowRightButton extends Component {
 
   render(){
     return (
-        <TouchableOpacity onPress={this.props.onPress} style={{backgroundColor:this.props.backgroundSolidColor,...styles.container}}>
-              <Text style={{color:this.props.colorTitle,...styles.buttonTitle}}>{this.props.title}</Text>
+        <TouchableOpacity onPress={this.props.onPress} style={{backgroundColor:this.props.backgroundSolidColor, paddingVertical:this.props.paddingV,...styles.container}}>
+              <Text style={{color:this.props.colorText,...styles.buttonTitle}}>{this.props.titleButton}</Text>
                 <Image style={styles.arrowImage} source={this.props.imageArrow} />
         </TouchableOpacity>
     )
@@ -22,11 +22,13 @@ class ArrowRightButton extends Component {
 }
 
 ArrowRightButton.propTypes = {
-    title: PropTypes.string.isRequired,
-    colorTitle : PropTypes.string.isRequired,
+    titleButton: PropTypes.string.isRequired,
+    colorText : PropTypes.string.isRequired,
     backgroundSolidColor: PropTypes.string.isRequired,
     imageArrow: PropTypes.number.isRequired,
     onPress:PropTypes.func,
+    paddingV: PropTypes.number
+    
 };
 
 const styles = StyleSheet.create({
@@ -36,7 +38,6 @@ const styles = StyleSheet.create({
         height: '100%',
         flexDirection:'row',
         borderRadius:55,
-        paddingVertical:10,
         paddingHorizontal:25,
         marginVertical:5,
     },
@@ -45,7 +46,7 @@ const styles = StyleSheet.create({
         fontSize: 15,
         alignSelf: 'flex-start',
         flex:1,
-        alignSelf:'center'
+        alignSelf:'center',
     },
     arrowImage:{
         width:30,
